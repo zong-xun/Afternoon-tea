@@ -1,0 +1,66 @@
+html, body {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Noto Sans Tc",sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  margin-top: 80px;
+  font-size: 150%;
+  letter-spacing: 6px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 200%;
+  letter-spacing: 4px;
+}
+
+h1:after {
+  display: block;
+  background-color: #e03d44;
+  content: "";
+  height: 2px;
+  width: 50px;
+  margin-top: 15px;
+}
+
+.text-box {
+  color: #fff;
+  position: absolute;
+  -webkit-transform: translate(10%, 110%);
+          transform: translate(10%, 110%);
+}
+
+.btn:link {
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 8px;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+.btn-full {
+  color: #fff !important;
+}
+
+.btn-full:link,
+.bnt-full:visited {
+  background-color: rgba(127, 63, 65, 0.9);
+}
+
+.btn-full:hover {
+  background-color: rgba(160, 77, 81, 0.9);
+}
+
+/*---header---*/
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url(../img/background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../img/background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/*# sourceMappingURL=style.css.map */
