@@ -2,6 +2,7 @@ html, body {
   font-size: 18px;
   font-weight: 300;
   font-family: "Noto Sans Tc",sans-serif;
+  background: url(../img/interlaced.png) center center;
 }
 
 h1 {
@@ -62,5 +63,31 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+/*---about-us---*/
+.about-us {
+  height: 35vh;
+}
+
+.title-row {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.dividerCenter {
+  height: 2px;
+  width: 40px;
+  background-color: #e03d44;
+  margin: 15px auto;
+}
+
+.title p {
+  font-size: 18px;
+  line-height: 1.9;
 }
 /*# sourceMappingURL=style.css.map */
